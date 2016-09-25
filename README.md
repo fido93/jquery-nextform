@@ -5,11 +5,11 @@ A simple free and open source app to count document pages from anywhere. Drag an
 
 ## Getting Started
 
-**jQuery Steps** is a lightweight wizard UI component written for **jQuery**.
+**jQuery-nextform** is a lightweight UI component written for **jQuery**.
 
 Everything you need to start is:
 
-1. Include **jQuery** and **jQuery Steps** in your HTML code.
+1. Include **jQuery** and **jquery-nextform** in your HTML code.
 2. Then select an element represents the wizard and call the `steps` method.
 
 ```html
