@@ -1,7 +1,7 @@
 # jquery-nextform
 
-A simple free and open source app to count document pages from anywhere. Drag and drop any number of pdfs, docxs to the app to display the total amount of page.
-
+A simple free and the form having 5 pages combining as a 1 page. Consist previous,next and submit button.
+Inspiration from [Jquery-Steps](https://github.com/rstaib/jquery-steps).
 
 ## Getting Started
 
@@ -10,7 +10,6 @@ A simple free and open source app to count document pages from anywhere. Drag an
 Everything you need to start is:
 
 1. Include **jQuery** and **jquery-nextform** in your HTML code.
-2. Then select an element represents the wizard and call the `steps` method.
 
 ```html
 <!DOCTYPE html>
@@ -19,14 +18,28 @@ Everything you need to start is:
         <title>Demo</title>
         <meta charset="utf-8">
         <script src="jquery.js"></script> 
-        <script src="jquery.steps.js"></script>
-        <link href="jquery.steps.css" rel="stylesheet">
+        <script src="jquery-nextform.js"></script>
     </head>
     <body>
-        <script>
-            $("#wizard").steps();
-        </script>
-        <div id="wizard"></div>
+        <div class="next" id="1">
+        </div>
+        <div class="next" id="2">
+        </div>
+        <div class="form-group pull-right">
+            <button id="pre-btn" disabled>Previous</button>
+            <button id="nxt-btn">Next</button>
+            <button id="submit-btn" disabled>Submit</button>
+        </div>
+        <script type="text/javascript">
+        // When onclick Submit Button
+        $('#submit-btn').click(function() {
+
+            //You can type what u want
+
+            alert("hello world");
+
+        });
+       </script>
     </body>
 </html>
 ```
@@ -40,12 +53,16 @@ There are two ways to add steps and their corresponding content.
 1. Add HTML code into the representing wizard element.
 
 ```html
-<div id="wizard">
-    <h1>First Step</h1>
-    <div>First Content</div>
-
-    <h1>Second Step</h1>
-    <div>Second Content</div>
+<div class="next" id="1">
+<h1>Hello World</h1>
+</div>
+<div class="next" id="2">
+<h2>It's me!</h2>
+</div>
+<div class="form-group pull-right">
+   <button id="pre-btn" disabled>Previous</button>
+   <button id="nxt-btn">Next</button>
+   <button id="submit-btn" disabled>Submit</button>
 </div>
 ```
 
