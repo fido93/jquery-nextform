@@ -48,9 +48,9 @@ Everything you need to start is:
 
 ### How to add initial steps?
 
-There are two ways to add steps and their corresponding content.
+To add steps and their corresponding content.
 
-1. Add HTML code into the representing wizard element.
+1. Add HTML code have class call next and id must be in integer.
 
 ```html
 <div class="next" id="1">
@@ -59,10 +59,8 @@ There are two ways to add steps and their corresponding content.
 <div class="next" id="2">
 <h2>It's me!</h2>
 </div>
-<div class="form-group pull-right">
-   <button id="pre-btn" disabled>Previous</button>
-   <button id="nxt-btn">Next</button>
-   <button id="submit-btn" disabled>Submit</button>
+<div class="next" id="3">
+<h2>It's me three!</h2>
 </div>
 ```
 
