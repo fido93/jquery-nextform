@@ -4,4 +4,4 @@ A simple free and open source app to count document pages from anywhere. Drag an
 
 ## Demo
 
-[![Demo Doccou alpha](https://j.gifs.com/Krpmkz.gif)]
+[![Demo Doccou alpha](https://j.gifs.com/Krpmkz.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
