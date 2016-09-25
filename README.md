@@ -1,6 +1,6 @@
 # jquery-nextform
 
-A simple free and the form having 5 pages combining as a 1 page. Consist previous,next and submit button.
+A simple form action contain previous,next and submit button.
 Inspiration from [Jquery-Steps](https://github.com/rstaib/jquery-steps).
 
 ## Getting Started
