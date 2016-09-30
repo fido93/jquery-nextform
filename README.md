@@ -44,8 +44,6 @@ Everything you need to start is:
 </html>
 ```
 
-> For more information [check the documentation](https://github.com/rstaib/jquery-steps/wiki).
-
 ### How to add initial steps?
 
 To add steps and their corresponding content.
